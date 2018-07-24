@@ -40,6 +40,14 @@ class Pedido
     }
 
     /**
+     * @param int $idCliente
+     */
+    public function setIdCliente(int $idCliente): void
+    {
+        $this->idCliente = $idCliente;
+    }
+
+    /**
      * @return DateTime
      */
     public function getFechaPedido(): DateTime
